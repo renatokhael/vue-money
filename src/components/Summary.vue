@@ -95,6 +95,7 @@ strong {
 }
 
 div.highlight-background {
-    background: var(--green);
+    background: var(--blue-light);
+    color: white;
 }
 </style>
