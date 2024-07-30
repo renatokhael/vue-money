@@ -9,9 +9,9 @@
 
 <br/>
 
-## 🚀 Tecnologias, Hooks e Bibliotecas
+## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com base na aplicação [Dt Money](https://github.com/FelipeBrenner/ignite-reactjs-dtmoney), originalmente criada em React. Elaborei uma versão utilizando Vue.js para demonstrar como este framework pode ser mais simples e performático. Além disso, utilizei o gerenciador de estado Pinia, que se mostrou extremamente mais intuitivo e simples de usar em comparação com o Context API. Reproduzi todas as funcionalidades da aplicação original empregando apenas store, computed e ref 
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Vue.js
 - TypeScript
@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com base na aplicação [Dt Money](https://github.
 
 ## 💻 Projeto
 
-O Vue Money é uma aplicação de controle financeiro com a mesma ideia que o [dev.finances](https://github.com/FelipeBrenner/maratona-discover-01-devfinances), porém com tecnologias e recursos estudados e utilizados mais avançados, bibliotecas open source desenvolvidas pela comunidade.  💰
+Esse projeto foi desenvolvido com base na aplicação [Dt Money](https://github.com/FelipeBrenner/ignite-reactjs-dtmoney), originalmente criada em React. Elaborei uma versão utilizando Vue.js para demonstrar como este framework pode ser mais simples e performático. Além disso, utilizei o gerenciador de estado Pinia, que se mostrou extremamente mais intuitivo e simples de usar em comparação com o Context API. Reproduzi todas as funcionalidades da aplicação original empregando apenas store, computed e ref 💰
 
 ## 🔖 Layout
 
