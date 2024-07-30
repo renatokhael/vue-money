@@ -9,6 +9,10 @@
 
 <br/>
 
+## 🚀 Deploy
+
+Acesse essa aplicação online [aqui](https://vue-money-nu.vercel.app/)
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
