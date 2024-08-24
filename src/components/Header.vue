@@ -4,9 +4,14 @@
             <div class="header-content">
                 <img src="../assets/logo.svg" alt="vue money" />
 
-                <button type="button" @click="showModal = true">
+                <div class="header-user">
+                    <img src="../assets/icons/person-icon.svg" alt="icons" width="22px" />
+                    <span>{{ userEmail }}</span>
+                </div>
+
+                <!-- <button type="button" @click="showModal = true">
                     Nova transação
-                </button>
+                </button> -->
             </div>
         </header>
 
@@ -30,8 +35,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useTransactionStore } from '../stores/useTransactionStore'; // Atualize o caminho conforme necessário
+import { ref, onMounted } from 'vue';
+import { getAuth, onAuthStateChanged } from 'firebase/auth'; // Importa funções do Firebase
+import { useTransactionStore } from '../stores/useTransactionStore';
 
 const showModal = ref(false);
 const newTransaction = ref({
@@ -43,6 +49,7 @@ const newTransaction = ref({
 });
 
 const store = useTransactionStore();
+const userEmail = ref(''); // Referência para armazenar o email do usuário
 
 const addTransaction = () => {
     store.addTransaction({ ...newTransaction.value });
@@ -57,9 +64,23 @@ const addTransaction = () => {
         createdAt: '',
     };
 };
+
+// Obtém o email do usuário logado
+onMounted(() => {
+    const auth = getAuth();
+    onAuthStateChanged(auth, (user) => {
+        if (user) {
+            userEmail.value = user.email;
+        } else {
+            // Se o usuário não estiver autenticado, redirecione para a página de login ou tome outra ação
+            console.log('Usuário não autenticado');
+        }
+    });
+});
 </script>
 
 <style scoped>
+/* (Mantenha o estilo conforme o exemplo anterior) */
 .header-container {
     background: var(--green-dark);
 }
@@ -73,8 +94,26 @@ const addTransaction = () => {
     justify-content: space-between;
 }
 
-button {
+.header-user {
+    background: #2A737D;
+    padding: 10px;
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
 
+.header-user img {
+    background: var(--green);
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+button {
     font-size: 1rem;
     color: var(--green-dark);
     background: var(--green);
