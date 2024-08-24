@@ -13,6 +13,10 @@
 
 Acesse essa aplicação online [aqui](https://vue-money-nu.vercel.app/)
 
+Usuário para teste: 
+user: admin@admin.com
+pass: password
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
