@@ -1,9 +1,11 @@
 <script setup lang="ts">
-
+import Dashboard from '../components/Dashboard.vue'
+import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
 </script>
 
 <template>
-  <main>
-    <h1>HOme</h1>
-  </main>
+  <Header />
+  <Dashboard />
+  <Footer />
 </template>

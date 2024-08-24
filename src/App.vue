@@ -1,14 +1,9 @@
 <script setup>
 // @ts-ignore
 
-import Header from './components/Header.vue'
-import Dashboard from './components/Dashboard.vue'
-import Footer from './components/Footer.vue'
 
 </script>
 
 <template>
-  <Header />
-  <Dashboard />
-  <Footer />
+  <router-view />
 </template>

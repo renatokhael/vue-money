@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: var(--shape);
+    background-color: var(--green-dark);
     /* ou outra cor que preferir */
     color: var(--text-title);
     /* ou outra cor que preferir */

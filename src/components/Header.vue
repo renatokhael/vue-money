@@ -61,7 +61,7 @@ const addTransaction = () => {
 
 <style scoped>
 .header-container {
-    background: var(--blue);
+    background: var(--green-dark);
 }
 
 .header-content {
@@ -76,8 +76,9 @@ const addTransaction = () => {
 button {
 
     font-size: 1rem;
-    color: #fff;
+    color: var(--green-dark);
     background: var(--green);
+    font-weight: 600;
     border: 0;
     padding: 0 2rem;
     border-radius: 0.25rem;
