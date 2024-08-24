@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esse projeto foi desenvolvido com base na aplicação [Dt Money](https://github.com/FelipeBrenner/ignite-reactjs-dtmoney), originalmente criada em React. Elaborei uma versão utilizando Vue.js para demonstrar como este framework pode ser mais simples e performático. Além disso, utilizei o gerenciador de estado Pinia, que se mostrou extremamente mais intuitivo e simples de usar em comparação com o Context API. Reproduzi todas as funcionalidades da aplicação original empregando apenas store, computed e ref 💰
+Gerenciador financeiro com entrada de saída de contas e transações.💰
 
 ## 🔖 Layout
 
