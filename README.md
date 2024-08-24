@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-  <img alt="dashboard" src=".github/01.png" width="100%">
-  <img alt="cadastrar-transacao" src=".github/02.png" width="100%">
+  <img alt="dashboard" src=".github/screenshot.jpg" width="100%">
+  
 </p>
 
 <br/>
@@ -14,8 +14,8 @@
 Acesse essa aplicação online [aqui](https://vue-money-nu.vercel.app/)
 
 Usuário para teste: 
-user: admin@admin.com
-pass: password
+- usuario: admin@admin.com
+- senha: password
 
 ## 🚀 Tecnologias
 
@@ -24,6 +24,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Vue.js
 - TypeScript
 - Pinia
+- Firebase
+
 
 
 ## 💻 Projeto

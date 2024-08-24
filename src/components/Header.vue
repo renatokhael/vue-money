@@ -5,13 +5,13 @@
                 <img src="../assets/logo.svg" alt="vue money" />
 
                 <div class="header-user">
-                    <img src="../assets/icons/person-icon.svg" alt="icons" width="22px" />
+                    <img src="../assets/icons/person-icon.svg" alt="icons" width="16px" />
                     <span>{{ userEmail }}</span>
                 </div>
 
-                <!-- <button type="button" @click="showModal = true">
+                <button type="button" @click="showModal = true">
                     Nova transação
-                </button> -->
+                </button>
             </div>
         </header>
 
@@ -96,20 +96,21 @@ onMounted(() => {
 
 .header-user {
     background: #2A737D;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 99px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    font-size: 14px;
 }
 
 .header-user img {
     background: var(--green);
     margin-right: 5px;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 5px;
 }
 
